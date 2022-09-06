@@ -1,8 +1,14 @@
 import React from "react";
 
 function App() {
+  const person = {
+    name: 'Иван',
+    age: 25
+  };
   return (
-      <div></div>
+      <div>
+        Ім'я: {person.name}, вік: {person.age}
+      </div>
   );
 }
 
