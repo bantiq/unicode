@@ -7,8 +7,6 @@ function App() {
     let listArr = arr.map((elem,index)=> <li key = {index}>{elem}</li>)
 
     let newElem = () => setArr([...arr,'пункт'])
-    let delElem = () => setArr([...arr.slice(0, arr.length - 1)])
-
 
     return (
         <div>
@@ -16,7 +14,6 @@ function App() {
                 {listArr}
             </ul>
             <button onClick={newElem}>Натисни кнопку</button>
-            <button onClick={delElem}>Натисни кнопку</button>
         </div>
     );
 }
