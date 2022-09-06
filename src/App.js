@@ -1,8 +1,11 @@
 import React from "react";
 
 function App() {
+  let showMessage = () => alert('hello');
   return (
-      <div></div>
+      <div>
+        <button onClick={showMessage}>Натисни на мене</button>
+      </div>
   );
 }
 
