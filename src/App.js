@@ -1,8 +1,11 @@
 import React from "react";
 
 function App() {
+  let attr = 'block';
   return (
-      <div></div>
+      <div id={attr}>
+        текст
+      </div>
   );
 }
 
