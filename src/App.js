@@ -1,9 +1,10 @@
 import React from "react";
 
 function App() {
-  let text = 'текст';
+  let show = true;
+  let showBlock = () => show ? 'текст 1' : 'текст 2' ;
   return (
-      <div>{text}</div>
+      <div>{showBlock()}</div>
   );
 }
 
