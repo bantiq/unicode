@@ -1,8 +1,13 @@
 import React from "react";
 
 function App() {
+  let str = 'block';
   return (
-      <div></div>
+      <div>
+        <div class = {str}>
+          текст
+        </div>
+      </div>
   );
 }
 
