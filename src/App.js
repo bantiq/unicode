@@ -1,8 +1,11 @@
 import React from "react";
 
 function App() {
+    let getText = () => <p>текст</p>
   return (
-      <div></div>
+      <div>
+          {getText()}
+      </div>
   );
 }
 
