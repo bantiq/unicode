@@ -1,8 +1,13 @@
 import React from "react";
 
 function App() {
+    let getNum1 = () => 1;
+    let getNum2 = () => 2;
+
   return (
-      <div></div>
+      <div>
+          текст {getNum1() + getNum2()}
+      </div>
   );
 }
 
