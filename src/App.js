@@ -1,8 +1,9 @@
 import React from "react";
 
 function App() {
+  let text = 'текст';
   return (
-      <div></div>
+      <div>{text}</div>
   );
 }
 
