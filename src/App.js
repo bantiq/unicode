@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 
 function App() {
-  return (
-      <div></div>
-  );
+    const [value, setValue] = useState('')
+    return (
+        <div>
+            <input type="text" value={value}
+                   onChange={(e) => setValue(e.target.value)}
+            />
+            <p>{value}</p>
+        </div>
+    );
 }
 
 export default App;
